@@ -1,10 +1,12 @@
 ![](https://d2zlsagv0ouax1.cloudfront.net/assets/home_page/hp-v5-logo@2x-6003c7f00d83f4df697830d18bdcf167.png)
 
-# Welcome to the Poshmark Sharing App
+# Welcome to PoshShark v1.0
 
-This script is designed for users with a [seller account on Poshmark marketplace](https://poshmark.com).
+This program is designed for users with a [seller account on Poshmark marketplace](https://poshmark.com).
 
-It is designed to automate sharing the listings for every item in your closet with all subscribers or to share all the listings of another Poshmark account. Once the script is executed, it will share the requested listings every 120 minutes. You can edit the timing and other options if you desire.
+It is designed to automate sharing the listings for every item in your closet with all subscribers or to share all the listings of another Poshmark account.
+
+Once the script is executed, it will share the requested listings every 120 minutes. This is to "fly under the radar" of Poshmark's automation detection systems.
 
 # Let the Share War Begin
 
@@ -15,8 +17,9 @@ It is designed to automate sharing the listings for every item in your closet wi
 * [Selenium](http://selenium-python.readthedocs.io)==3.141.0+
 * [Numpy](https://numpy.org/)==1.15.2+
 
-To install Python3 requirements, you may run `pip install -r requirements.txt`. You will also need a recent version of Firefox (or another webdriver of your choice). If using Firefox, you will also likely need to install `geckodriver`, which on macOS can be accomplished using [Homebrew](https://brew.sh/) with the command `brew install geckodriver` in terminal.
+To install Python3 requirements: `pip install -r requirements.txt` 
 
+You will also need a recent version of Firefox (or another webdriver of your choice). If using Firefox, you will also likely need to install `geckodriver`
 
 ## Setup
 
