@@ -44,17 +44,15 @@ Edit the text in quotes to your actual username and password. Save the file and 
 * The default webdriver for this script is Firefox, which was the original web browser used in writing this script and executing the code. From a development perspective Firefox offers a better interface to inspect the HTML code needed in writing the scraper. However, other webdrivers, including Chrome, Safari, or Edge may be used. 
 
 To learn more about setting up the appropriate web driver, visit the Selenium web driver documentation below:
-[https://selenium-python.readthedocs.io/installation.html#drivers](https://selenium-python.readthedocs.io/installation.html#drivers)
+[https://selenium-python.readthedocs.io/installation.html#drivers] https://selenium-python.readthedocs.io/installation.html#drivers)
 
 # Quick Start
 
 ## Run in Terminal (Recommended)
 
-In terminal run the following command: `python share_war.py`, which will run the script with the default options (see below).
+In terminal run the following command: `python3 share_war.py`, which will run the script with the default options (see below).
 
-*Note:* If you have several versions of python, you will need to amend the above line to run your python 3 alias, e.g. `python3 share_war.py`.
-
-## Run in Jupyter
+## Run in Jupyter (y tho)
 
 This program can also be run in Jupyter with a Python 3 kernel. Simply launch `jupyter notebook` in terminal and click the notebook, `PoshMark_Seller_Sharing_App.ipynb`. Once in the notebook, simply follow the instructions to run the script, which is configured to run the default options.
 
@@ -90,7 +88,7 @@ To override this option, you can reverse order the items of the closet with the 
 
 ### Account
 
-By default, the code will share all the listings for Poshmark account provided in credentials.py. While you will still need your account information in credentials.py to login, you may request that the code share the listings of another Poshmark user with the account option: `python share_war.py -a another_poshmark_closet`. This can be a useful feature, for example, in becoming a Poshmark ambassador.
+By default, the code will share all the listings for Poshmark account provided in credentials.py. While you will still need your account information in credentials.py to login, you may request that the code share the listings of another Poshmark user with the account option: `python share_war.py -a another_poshmark_closet`. Why the fuck would you do that? To become a Poshmark Ambassador, duh.
 
 Since the code is setup to run on a loop (by default every two hours), a safeguard is put in place to confirm that you actually want to share another users account. This will appear in the terminal:
 
