@@ -26,10 +26,10 @@ You will also need a recent version of Firefox (or another webdriver of your cho
 #### Git Clone
 
 First clone the repository in terminal:
-* `git clone https://github.com/jmausolf/poshmark_sharing`
+* `git clone https://github.com/acewealth/poshshark`
 
 Change directories to enter the local repository:
-* `cd poshmark_sharing`
+* `cd poshshark`
 
 #### User Credentials
 
